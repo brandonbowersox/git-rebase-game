@@ -10,7 +10,8 @@ Instructions
 1. Clone this repo locally
 2. Code 3 different "features" detailed below
 3. Commit and push each feature separately (in its own push)
-4. To win the game, your commits on GitHub master should not have any merges with other people's work.
+4. In each commit message, include the feature number and a description
+5. To win the game, your commits on GitHub master should not have any merges with other people's work
 
 
 To Run the Game
