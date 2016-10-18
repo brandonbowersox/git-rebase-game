@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "Hello from the other side"
+echo -n "Hello from the other side"
