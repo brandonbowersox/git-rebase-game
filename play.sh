@@ -25,6 +25,7 @@ function daemon {
 function showscenery {
   if [ $((RANDOM%6)) -eq 0 ] ; then asciinote; fi
   if [ $((RANDOM%10)) -eq 0 ] ; then asciihalfnote; fi
+  if [ $((RANDOM%20)) -eq 0 ] ; then ponny: fi
   if [ $((RANDOM%50)) -eq 0 ] ; then guitar; fi
 }
 
