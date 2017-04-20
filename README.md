@@ -3,6 +3,11 @@ Git Rebase Game!
 
 This is a group activity that accompanies the [Git Rebase slideshow](https://docs.google.com/presentation/d/13O78AVGnz83HDpPelluG6UnIKXxFlHNb6usM_-zXpZM/).
 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
 
 Instructions
 ============
