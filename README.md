@@ -1,28 +1,13 @@
-========================
-Contribute documentation
-========================
-
-This document briefly explains the process of collecting, building and contributing the documentation
-to OpenLMIS v3.
-
-Build process
--------------
-
-The developer documentation for OpenLMISv3 is scattered across various repositories. Moreover, some
-of the artifacts are dynamically generated, based on the current codebase. All that documentation
-is collected by a single script. In order to collect a new document to be able to include it in the
-developer documentation, it must be placed in the *collect-docs.py* script. The documentation is built
-daily and is triggered by a Jenkins job. It then gets published under http://openlmis.readthedocs.io.
-The static documentation files and the build configuration is kept on the openlmis-ref-distro repository, in the
-*docs* directory. It is also possible to rebuild and upload the documentation to Read the Docs manually, by
-running the *OpenLMIS-documentation* Jenkins job.
-
-Contributing
-------------
-
-Depending on the part of the documentation that you wish to contribute to, a specific document in one
-of the `GitHub repositories <https://github.com/OpenLMIS>`_ must be edited. The table below explains where the
-particular pieces of the documentation are fetched from, in order to be able to locate and edit them.
+=====  =====  ====== 
+   Inputs     Output 
+------------  ------ 
+  A      B    A or B 
+=====  =====  ====== 
+False  False  False 
+True   False  True 
+False  True   True 
+True   True   True 
+=====  =====  ======
 
 
 Documentation | Location and description
